@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Technologies from "./Technologies";
+
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -19,7 +21,7 @@ export default class Porfolio extends Component {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <a href="#modal">
+                        <a href={item.link}>
                           <img
                             src={`${item.imgurl}`}
                             className="item-img"
@@ -32,6 +34,10 @@ export default class Porfolio extends Component {
                             </div>
                           </div>
                         </a>
+                      </div>
+                      <div className="technologies">
+                        {console.log("item technologies", item.technologies)}
+                        <Technologies technologies={item.technologies} />
                       </div>
                     </div>
                   );

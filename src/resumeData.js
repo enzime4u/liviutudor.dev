@@ -92,25 +92,42 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "Weather App ",
-      description: "mobileapp",
-      imgurl: "images/portfolio/coffee.jpg"
+      name: "Shopping List App",
+      description: "JavaScript App",
+      imgurl: "images/portfolio/sh-app.png",
+      link: "http://enzime4u.github.io/shoppinglist",
+      technologies: ["HTML", "CSS", "JavaScript"]
+    },
+    // {
+    //   name: "Street Fighter",
+    //   description: "HTML, CSS, JAVASCRIPT, JQUERY",
+    //   imgurl: "images/portfolio/street-fighter.png",
+    //   link: "http://enzime4u.github.io/StreetFighter/main.html",
+    //   technologies: ["HTML", "CSS", "JavaScript"]
+    // },
+    {
+      name: "Weather App",
+      description: "Weather application build with OpenWeather API",
+      imgurl: "images/portfolio/girl.jpg",
+      technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/console.jpg"
+      name: "Weather App",
+      description: "Weather application build with OpenWeather API",
+      imgurl: "images/portfolio/girl.jpg",
+      technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/girl.jpg"
+      name: "Weather App",
+      description: "Weather application build with OpenWeather API",
+      imgurl: "images/portfolio/girl.jpg",
+      technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/judah.jpg",
-      content: "lorem lipsum"
+      name: "Weather App",
+      description: "Weather application build with OpenWeather API",
+      imgurl: "images/portfolio/girl.jpg",
+      technologies: ["HTML", "CSS", "JavaScript"]
     }
   ]
 };

@@ -534,6 +534,12 @@ ul#nav li.current a {
   margin-bottom: 36px;
 }
 
+#portfolio-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
 .portfolio-item .item-wrap {
   background: #fff;
   overflow: hidden;
@@ -687,6 +693,8 @@ ul#nav li.current a {
   margin-left: 24px;
 }
 
+
+
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
@@ -708,6 +716,22 @@ ul#nav li.current a {
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
   opacity: 0;
+}
+
+.technologies {}
+
+.technologies-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.tech-skill {
+  font-size: 1.2rem;
+  background: #5cc9f5;
+  padding: 5px 10px;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
 /* ------------------------------------------------------------------ */

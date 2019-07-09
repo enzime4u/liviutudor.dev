@@ -5,7 +5,7 @@ export default class ContactUs extends Component {
     return (
       <section id="contact">
         <div className="row section-head">
-          <h2 class="title">
+          <h2 className="title">
             <span>Contact Me</span>
           </h2>
           <div className="twelve columns">
