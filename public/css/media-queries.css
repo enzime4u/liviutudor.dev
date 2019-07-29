@@ -473,6 +473,7 @@
   header .banner-text h3 {
     font: 14px/1.9em "librebaskerville-regular", sans-serif;
     width: 90%;
+    display: none;
   }
 
   /* header social links */

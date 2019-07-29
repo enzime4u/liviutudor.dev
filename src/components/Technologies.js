@@ -5,7 +5,7 @@ const Technologies = props => (
     {console.log("props in tecnho is", props.technologies)}
     {props ? (
       props.technologies.map((skill, key) => (
-        <button className="tech-skill" key={key}>
+        <button className="tech-skill" key={key} disabled={true}>
           {skill}
         </button>
       ))

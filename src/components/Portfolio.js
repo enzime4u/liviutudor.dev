@@ -14,14 +14,18 @@ export default class Porfolio extends Component {
             </h1>
             <div
               id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
+              className="bgrid-thirds s-bgrid-halves cf"
             >
               {resumeData.portfolio &&
                 resumeData.portfolio.map(item => {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <a href={item.link}>
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreffer"
+                        >
                           <img
                             src={`${item.imgurl}`}
                             className="item-img"

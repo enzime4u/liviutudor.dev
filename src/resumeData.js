@@ -92,41 +92,38 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "Weather App",
+      description: "Weather application build with OpenWeather API",
+      imgurl: "images/portfolio/weather-app.png",
+      link: "https://enzime4u.github.io/react-weather/",
+      technologies: ["HTML", "CSS", "JavaScript", "React JS"]
+    },
+    {
+      name: "React Dice Game",
+      description: "Simple dice rolling component",
+      imgurl: "images/portfolio/dice-app2.png",
+      link: "https://enzime4u.github.io/React-Dices/",
+      technologies: ["HTML", "CSS", "JavaScript", "ReactJS"]
+    },
+    {
+      name: "Pokemon Game",
+      description: "React Pokemon Game",
+      imgurl: "images/portfolio/pokemon-app.png",
+      link: "https://enzime4u.github.io/Pokemon-Game/",
+      technologies: ["HTML", "CSS", "JavaScript", "ReactJS"]
+    },
+    {
       name: "Shopping List App",
       description: "JavaScript App",
       imgurl: "images/portfolio/sh-app.png",
       link: "http://enzime4u.github.io/shoppinglist",
       technologies: ["HTML", "CSS", "JavaScript"]
     },
-    // {
-    //   name: "Street Fighter",
-    //   description: "HTML, CSS, JAVASCRIPT, JQUERY",
-    //   imgurl: "images/portfolio/street-fighter.png",
-    //   link: "http://enzime4u.github.io/StreetFighter/main.html",
-    //   technologies: ["HTML", "CSS", "JavaScript"]
-    // },
     {
-      name: "Weather App",
-      description: "Weather application build with OpenWeather API",
-      imgurl: "images/portfolio/girl.jpg",
-      technologies: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      name: "Weather App",
-      description: "Weather application build with OpenWeather API",
-      imgurl: "images/portfolio/girl.jpg",
-      technologies: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      name: "Weather App",
-      description: "Weather application build with OpenWeather API",
-      imgurl: "images/portfolio/girl.jpg",
-      technologies: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      name: "Weather App",
-      description: "Weather application build with OpenWeather API",
-      imgurl: "images/portfolio/girl.jpg",
+      name: "Street Fighter",
+      description: "HTML, CSS, JAVASCRIPT, JQUERY",
+      imgurl: "images/portfolio/street-fighter.png",
+      link: "http://enzime4u.github.io/StreetFighter/main.html",
       technologies: ["HTML", "CSS", "JavaScript"]
     }
   ]
